@@ -10,6 +10,10 @@ public class dashboardPageTest {
 
 	}
 	
-	
+	@Test
+	public void dashboardTest2()
+	{
+	System.out.println("dashboard page test2.");	
+	}
 	
 }
