@@ -6,4 +6,9 @@ public class loginPage {
 	{
 		System.out.println("This is login page.");
 	}
+	
+	public loginPage()
+	{
+		
+	}
 }
