@@ -1,5 +1,7 @@
 package POM;
 
+import org.openqa.selenium.WebDriver;
+
 public class loginPage {
 
 	public void login()
@@ -7,8 +9,9 @@ public class loginPage {
 		System.out.println("This is login page.");
 	}
 	
-	public loginPage()
+	WebDriver driver;
+	public loginPage(WebDriver driver)
 	{
-		
+		this.driver = driver;
 	}
 }
